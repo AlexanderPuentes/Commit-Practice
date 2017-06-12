@@ -1,0 +1,16 @@
+class Person
+  attr_accessor :hair_color
+  attr_accessor :name
+
+  def initialize(hair_color,name)
+    @hair_color = hair_color
+    @name = name
+  end
+
+  def sing
+    return "Can't Stop This Feeling"
+  end
+end
+
+sandy = Person.new("brown", "Paola")
+sandy.sing
